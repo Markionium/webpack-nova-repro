@@ -1,0 +1,28 @@
+{
+  "name": "test-webpack-nova",
+  "version": "1.0.0",
+  "private": "false",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "@graphitation/graphql-js-tag": "0.8.0",
+    "@nova/react": "0.3.2",
+    "@types/react": "16.14.2",
+    "@types/react-dom": "16.9.10",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-graphql-tag": "^3.3.0",
+    "graphql": "^15.0.0",
+    "graphql-tag": "^2.12.6",
+    "react": "16.11.0",
+    "react-dom": "16.11.0",
+    "typescript": "npm:@msfast/typescript-platform-resolution@^4.5.2",
+    "webpack": "4.44.2",
+    "webpack-bundle-analyzer": "3.9.0"
+  },
+  "scripts": {
+    "build": "tsc && webpack"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.0.0"
+  }
+}
